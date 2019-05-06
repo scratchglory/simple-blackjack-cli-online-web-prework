@@ -33,7 +33,11 @@ end
 
 def initial_round
   # code #initial_round here
+  x = rand(1..11)
+  y = rand(1..11)
+  card_total = "Your cards add up to "
   
+  # binding.pry
 end
 
 def hit?
