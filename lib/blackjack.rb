@@ -40,22 +40,24 @@ def initial_round
   # binding.pry
 end
 
-def hit?(humber)
+def hit?(number)
   # code hit? here
+  number
   prompt_user
-  if get_user_input == 'h'
+  if number == 'h'
     deal_card
     initial_round += deal_card
-  elsif get_user_input == 's'
+  elsif number == 's'
     initial_round
-  else get_user_input != 'h'||'s'
+  else number != 'h'||'s'
     invalid_command
   end
 end
 
+binding.pry
 def invalid_command
   # code invalid_command here
-  
+  "Please enter a valid command"
 end
 
 #####################################################
