@@ -32,10 +32,18 @@ def end_game(number)
 end
 
 def initial_round
+<<<<<<< HEAD
  
   card_total = (deal_card + deal_card)
   display_card_total(card_total)
     card_total
+=======
+  # code #initial_round here
+  x = (rand(1..11) + rand(1..11))
+  # y = [rand(1..11)]
+  # z = #{x} + #{y}
+  card_total = #{x}
+>>>>>>> 82af6587bf943c9d9c13ed4f9ca32979babb5cc7
   
   # binding.pry
 end
